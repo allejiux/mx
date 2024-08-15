@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            position: relative;
+            text-align: center;
+            color: white;
+            background-image: url('hello world.png'); /* 'banner' */
+            background-size: cover;
+            background-position: center;
+            height: 300px; /* altura para mostrar el banner */
+        }
+        .header .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* superposición oscura para el texto */
+        }
+        .header .photo {
+            margin-top: 50px; /* margen superior para que la foto esté en el centro del banner */
+            width: 150px;
+            height: 150px;
+            background-color: #ddd;
+            background-image: url('alexis.jpg'); /*'alexis.jpg' */
+            background-size: cover;
+            background-position: center;
+            border-radius: 50%;
+            border: 5px solid white;
+            position: relative;
+            z-index: 1;
+        }
+        .header .info {
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .header .info h1 {
+            margin: 0;
+            color: white; /* Cambiado a blanco para mayor contraste */
+        }
+        .header .info p {
+            margin: 5px 0;
+            color: #ddd; /* Cambiado a un gris claro para mayor contraste */
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+            border-bottom: 2px solid #e74c3c;
+            display: inline-block;
+        }
+        .section p {
+            margin: 5px 0;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section ul li {
+            background: #ecf0f1;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .iframe-container {
+            margin-top: 20px;
+            position: relative;
+            width: 100%;
+            height: 400px;
+            border: 1px solid #ddd;
+        }
+        .iframe-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        .section table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        .section table, .section th, .section td {
+            border: 1px solid #ddd;
+        }
+        .section th, .section td {
+            padding: 10px;
+            text-align: left;
+        }
+        .section th {
+            background-color: #f8f8f8;
+        }
+        .link-section a {
+            text-decoration: none;
+            color: #3498db;
+        }
+        .link-section a:hover {
+            text-decoration: underline;
+        }
+        .social-icons {
+            display: flex;
+            gap: 10px;
+        }
+        .social-icons a {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            background-size: cover;
+        }
+        .social-icons .facebook {
+            background-image: url('facebook.png'); /* icono de Facebook */
+        }
+        .social-icons .instagram {
+            background-image: url('instagram.png'); /* icono de Instagram */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="overlay"></div>
+            <div class="photo"></div>
+            <div class="info">
+                <h1>👨‍💻 Alexis Manuel Becerra Rodriguez👨‍💻</h1>
+                <p>Estudiante de Ingenieria en Sistemas</p>
+                <p>Correo: alexis.br@ucad.edu.mx</p>
+                <p>Teléfono: (+52) 5613743656</p>
+            </div>
+        </div>
+        <div class="section">
+            <h2>🛡️ Objetivos</h2>
+            <p>Lograr un desarrollo personal y profesional, asimismo laborar en una empresa donde mis obligaciones representen un reto y pueda programar las actividades con base a objetivos y metas definidas. </p>
+        </div>
+        <div class="section">
+            <h2>🔩 Experiencia</h2>
+            <p><strong>Nombre de la Empresa: Bioskinco</strong></p><br>
+            <p><strong>Puesto:</strong> Ayudante de Bodega</p><br>
+            <p><strong>Jefe inmediato:</strong> Ing. José Manuel Becerra Núñez <br><br><br>
+
+                <strong>Actividades:</strong><br> <br>
+                
+                • Empaquetado <br> <br>
+                • Acomodo de mercancía<br> <br>
+                • Administracion de Mercancia Primeras entras Primeras salidas<br> <br>
+                • Limpieza en General<br><br><br>
+            </p>
+            <p><strong>🔧HERRAMIENTAS</strong><br><br><br><br>
+
+                <strong>SOFTWARE</strong><br><br><br>
+                
+                - Microsoft Office (Excel, Word, Power Point, Access, Outlook)<br><br>
+                - Programación (C, C++, Java, Python)<br><br>
+                - Creación y administración de Bases de datos<br><br>
+                - Creación de páginas web HTML,PHP<br><br><br><br>
+
+                <strong>💻HARDWARE</strong><br><br><br>
+
+                - Armado y Desarmado de computadoras.<br><br>
+                - Reemplazo de piezas de Celulares reparaciones.<br><br>
+                - Limpieza de PC y Moviles.<br><br>
+            </p>
+        </div>
+        <div class="section">
+            <h2>📚Educación</h2><br><br><br>
+            <p><strong>Nombre de la Institución: UCAD</strong></p><br><br>
+            <p><strong>Título en Proceso:</strong> Ingeniero en Sistemas.</p><br><br>
+            <p><strong>INICIO:</strong> 2021 <strong><br><br> FINALIZACION:</strong> 2024</p><br><br>
+            <p><strong>LOGROS EN LA CARRERA:</strong> Creacion de aplicaciones, Creacion de Bases de Datos, Creacion de Paginas Web.
+            </p>
+        </div>
+        <div class="section">
+            <h2>👓Habilidades</h2>
+            <ul>
+                <li>Conocimientos basicos en hacking etico</li>
+                <li>Hacking Wifi</li>
+                <li>Hacking Redes Sociales</li>
+                <li>Ingenieria Social</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>📛Información Adicional</h2>
+            <table>
+                <tr>
+                    <th>Categoría</th>
+                    <th>Detalles</th>
+                </tr>
+                <tr>
+                    <td>📒Certificaciones</td>
+                    <td>Certificacion en WORD, POWER POINT Y EXCEL</td>
+                </tr>
+                <tr>
+                    <td>⚽Deportes</td>
+                    <td>Futbol, Natación, Taekwondo, MMA.</td>
+                </tr>
+                <tr>
+                    <td>🗣️Idiomas</td>
+                    <td>Español e Ingles (nivel intermedio)</td>
+                </tr>
+            </table>
+        </div>
+        <div class="section link-section">
+            <h2>📱Redes Sociales</h2><br><br>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/alexis.rod.397" target="_blank" class="facebook"></a>
+                <a href="https://www.instagram.com/alexisrod9" target="_blank" class="instagram"></a>
+            </div>
+        </div>
+        <div class="section link-section">
+            <h2>Páginas Personalizadas</h2>
+            <p><a href="https://www.primevideo.com/detail/Who-am-I-Ning%C3%BAm-sistema-es-seguro/0R696X3SBEYTU4080BZ4E4Y3BK" target="_blank">WhoAMi?????</a></p>
+            <p><a href="https://medium.com/appsflyerengineering/how-can-hello-world-program-effect-the-way-you-think-about-programing-3be5cefdaf8c" target="_blank">hellow world click here</a></p>
+        </div>
+        <div class="section">
+            <h2>Galería de Imágenes</h2>
+            <img src="whoami.jpg" alt="Imagen 1" style="width:100%; height:auto;">
+            <img src="ucad.png" alt="Imagen 2" style="width:100%; height:auto;">
+        </div>
+        <div class="section">
+            <h2>Videos</h2>
+            <div class="iframe-container">
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Video Local</h2>
+            <video controls width="100%">
+                <source src="video.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de video.
+            </video>
+        </div>
+        <div class="section iframe-container">
+            <iframe src="https://www.mediotiempo.com/futbol/cristiano-ronaldo-revela-significado-grito-siu-marcar-gol"></iframe>
+        </div>
+    </div>
+</body>
+</html>
+
